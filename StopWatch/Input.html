@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit = no">
+    <link rel="stylesheet" href="../Input.css">
+    <title>The S.B StopWatch</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="project-name">
+            <div class="first">
+                The S.B
+            </div>
+            <div class="second">
+              StopWatch
+            </div>
+        </div>
+
+        <div class="input-and-button">
+            <div class="inputs-parent">
+                <div>
+                    <div class="hr">Hour</div>
+                    <input type="number" name="hr" id="hr" min="0">
+                </div>
+                <div>
+                    <div for="Minutes" class="minutes">Minutes</div>
+                    <input type="number" name="minute" id="minute" min="0" max="60" >
+                </div>
+                <div>
+                    <div for="Seconds">Seconds</div>
+                    <input type="number" name="secs" id="sec" max="60" min="0">
+                </div>
+            </div>
+            <div class="button-start">
+              <input type="button" value="Start CountDown" id="countdown">
+            </div>
+        </div>
+    </div>
+
+    <script src="../Input.js"></script>
+</body>
+</html>

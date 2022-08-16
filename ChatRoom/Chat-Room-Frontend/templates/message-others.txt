@@ -1,0 +1,15 @@
+<div>
+    <div class="message-item message-others">
+        <div class="user-info">
+            <img src="https://source.unsplash.com/random/1" alt="img" class="user-profile" />
+            <span class="username">$$USERNAME</span>
+        </div>
+        <div class="mss-body">
+            <span class="mss-content">
+                $$MESSAGE
+            </span>
+            <div class="time">$$TIME</div>
+        </div>
+    </div>
+
+</div>

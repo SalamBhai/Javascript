@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Chat Room</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="register-form" class="input">
+            <h1 style="color: white;">Register</h1>
+            <input id="register-input-username" class="input-field" type="text" placeholder="Enter Your Username" />
+            <input id="register-input-password" type="password" class="input-field" placeholder="Enter Your password" />
+            <span id="error-message" class="hidden"></span>
+            <button id="register-start-btn" class="button">Register</button>
+            <div>
+                <span id="Loginarrow"> ===>>></span> <span><button id="btn-login-switch" class="button">Click Here To Login</button></span>
+            </div>
+        </div>
+        <div id="login-form" class="input hidden">
+            <h1 style="color: white;">Login</h1>
+            <input id="login-input-username" type="text" class="input-field" placeholder="Enter Your Username" />
+            <input id="login-input-password" type="password" class="input-field" placeholder="Enter Your password" />
+            <span id="error-message" class="hidden"></span>
+            <button id="login-start-btn" class="button">Enter Chat Room</button>
+            <button id="btn-register-switch" class="button">Click Here To Register</button>
+        </div>
+
+
+    </div>
+
+
+    <script src="/scripts/register.js"></script>
+
+</body>
+
+</html>
